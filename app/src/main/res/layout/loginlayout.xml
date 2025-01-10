@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="32dp"
+        android:padding="127dp"
+        android:background="#bfdbfe">
+    </TextView>
+
+    <ImageView
+        android:layout_width="690dp"
+        android:layout_height="200dp"
+        android:background="@drawable/background"
+        android:paddingEnd="100dp"
+        android:layout_marginTop="123dp"
+        android:paddingRight="100dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="299dp"
+        android:padding="220dp"
+        >
+      </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_marginTop="205dp"
+        android:textSize="40dp"
+        android:gravity="center"
+        ></TextView>
+    <TextView
+    android:id="@+id/textView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Smart "
+        android:textSize="55dp"
+    />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:textSize="55dp"
+        android:text="Institute System "
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="32dp"
+        android:layout_marginTop="340dp">
+    </EditText>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="32dp"
+        android:layout_marginTop="430dp">
+    </EditText>
+</RelativeLayout>
