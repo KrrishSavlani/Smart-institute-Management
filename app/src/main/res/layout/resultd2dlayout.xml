@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="D2D"
+        android:gravity="center"
+        android:textSize="35sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <!-- Container for Buttons -->
+    <GridLayout
+        android:id="@+id/grid_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text"
+        android:layout_marginTop="30dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="2"
+        android:rowCount="3"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <!-- Button 1 -->
+        <Button
+            android:id="@+id/D2D_1"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text="1st"
+            android:textSize="20sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp" />
+
+        <!-- Button 2 -->
+        <Button
+            android:id="@+id/D2D_2"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text="2nd"
+            android:textSize="20sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp" />
+
+        <!-- Button 3 -->
+        <Button
+            android:id="@+id/D2D_3"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text="3rd"
+            android:textSize="20sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp" />
+
+        <!-- Button 4 -->
+        <Button
+            android:id="@+id/D2D_4"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text="4th"
+            android:textSize="20sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp" />
+
+        <!-- Button 5 -->
+        <Button
+            android:id="@+id/D2D_5"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text="5th"
+            android:textSize="20sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp" />
+
+        <!-- Button 6 -->
+        <Button
+            android:id="@+id/D2D_6"
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:text="6th"
+            android:textSize="20sp"
+            android:layout_columnWeight="1"
+            android:layout_margin="8dp" />
+
+    </GridLayout>
+
+</RelativeLayout>

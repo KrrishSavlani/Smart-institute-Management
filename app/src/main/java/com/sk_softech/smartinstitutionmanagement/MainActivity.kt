@@ -18,3 +18,11 @@ class MainActivity : AppCompatActivity() {
         }
     }
 }
+
+
+//creating the login page backend
+//after the authentication
+//we will do for the teachers
+//after that we will proceed on the time table
+//after that we will proceed to the attendence
+//after theat we will procees to teh shring datat to the hods and to teh principal
